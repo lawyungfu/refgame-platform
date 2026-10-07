@@ -7,6 +7,7 @@ import { type ReactNode } from "react";
 
 const config = createConfig({
   chains: [baseSepolia],
+  ssr: true,
   transports: {
     [baseSepolia.id]: http(),
   },
